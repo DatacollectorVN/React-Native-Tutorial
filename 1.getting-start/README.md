@@ -8,5 +8,3 @@
 - *node_modules/expo/AppEntry.js*: 
 
 ![plot](../public-imgs/3.appentry.png)
-
-## 2. Using the State Hook

@@ -3,6 +3,7 @@ This reposotory for self-learning **[React Native](https://reactnative.dev/)** b
 
 If you don't familiar with JavaScript, follow my own [tutorial](https://github.com/DatacollectorVN/JavaScript-Tutorial).
 
+My own document of React-Native, click [here](https://playful-sting-171.notion.site/fc9ff96f52854b90a78c3f4631e40693?v=13c9219aa53d45c0b78aca90acc8783f) 
 ## Setup requirements
 ### 1. Install [Nodejs](https://reactnative.dev)
 After installing, verify:

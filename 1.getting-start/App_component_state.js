@@ -33,7 +33,7 @@ class App extends Component{
   render(){
     return(
       <View style={style.container}>
-        <Text>Count: {this.state.counter}</Text>
+        <Text>Count with class component: {this.state.counter}</Text>
         <Button onPress={this.incrementCount.bind(this)} title="+"></Button>
         <Button onPress={this.decrementCount.bind(this)} title="-"></Button>
       </View>
