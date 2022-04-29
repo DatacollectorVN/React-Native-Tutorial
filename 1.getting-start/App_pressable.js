@@ -43,7 +43,7 @@ const App = () => {
                     You are registered as {name}
                 </Text>
                 :
-                null
+                <Image source={require('')}/>
             }
             <Text style={styles.text}>
                 End of app!
