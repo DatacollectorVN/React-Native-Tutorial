@@ -6,12 +6,15 @@ import {
     Pressable,
 } from 'react-native';
 
-export default function ScreenB({ navigation }) {
+export default function ScreenA({ navigation }) {
+
+    const onPressHandler = () => {
+        navigation.navigate('Screen_B');
+    }
+
     return (
         <View style={styles.body}>
-            <Text style={styles.text}>
-                Screen B
-            </Text>
+            
         </View>
     )
 }
@@ -21,7 +24,6 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#ffffff'
     },
     text: {
         fontSize: 40,

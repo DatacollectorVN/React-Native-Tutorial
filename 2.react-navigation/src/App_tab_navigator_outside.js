@@ -11,6 +11,7 @@ import { createMaterialBottomTabNavigator } from '@react-navigation/material-bot
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import ScreenA from './ScreenA';
 import ScreenB from './ScreenB';
+import QrScanner from './test_qr_1';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 // const Tab = createBottomTabNavigator();
@@ -32,6 +33,9 @@ function App() {
                 iconName = 'btc';
                 size = focused ? 25 : 20;
                 // color = focused ? '#f0f' : '#555';
+                } else if (route.name === 'QrScanner'){
+                  iconName = 'btc';
+                  size = focused ? 25 : 20;
                 }
                 return (
                 <FontAwesome5
@@ -66,6 +70,11 @@ function App() {
           name="Screen_B"
           component={ScreenB}
           options={{ tabBarIcon: () => <Text>😝</Text>}}
+        />
+        <Tab.Screen
+          name="QrScanner"
+          component={QrScanner}
+          options={{ tabBarIcon: () => <Text>😎</Text>}}
         />
       </Tab.Navigator>
     </NavigationContainer>
