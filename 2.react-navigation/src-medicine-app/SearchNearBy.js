@@ -47,7 +47,7 @@ export default class SearchNearBy extends React.Component {
     const location = `location=${this.state.latitude},${this.state.longitude}`;
     const radius = '&radius=1000';
     const type = '&type=hospital';
-    const key = '&key=AIzaSyBkoAcdFhQhPeG9haVVBEMkCzWo9Pldh1U';
+    const key = '&key=<API_KEY>';
     const hospitalSearchUrl = url + location + radius + type + key;
     console.log(hospitalSearchUrl)
     fetch(hospitalSearchUrl)
